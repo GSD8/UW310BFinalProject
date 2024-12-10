@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <h1>Rock Paper Scissors</h1>
+    <form id="player-form">
+      <input type="text" id="player-name" placeholder="Enter your name" required>
+      <button type="submit">Start Game</button>
+    </form>
+    <div id="game" style="display: none;">
+      <div id="choices">
+        <img id="rock" src="" alt="Rock" title="Rock">
+        <img id="paper" src="" alt="Paper" title="Paper">
+        <img id="scissors" src="" alt="Scissors" title="Scissors">
+      </div>
+      <div id="result"></div>
+      <button id="play-again">Play Again</button>
+    </div>
+    <div id="history" style="display: none;">
+      <h2>Game History</h2>
+      <ul class="no-bullets" id="history-list"></ul>
+      <button id="reset-history">Reset History</button>
+    </div>
+    <div id="stats" style="display: none;">
+      <h2>Statistics</h2>
+      <p id="win-loss-totals"></p>
+      <p id="win-percentage"></p>
+    </div>
+  </main>
+  <script src="api-key.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
