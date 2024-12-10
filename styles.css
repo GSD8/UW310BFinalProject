@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+  
+  main {
+    margin: 50px auto;
+    width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #choices img {
+    width: 80px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  
+  #play-again {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+  }
+
+
+  .no-bullets {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .no-bullets li {
+    margin: 5px 0;
+  }
+
+  
